@@ -22,10 +22,6 @@ df_blue.sort_index(inplace=True)
 # print(df_blue.info())
 # print(df_blue.dtypes)
 #--------------------------------------------------------------------------------------------------------
-print(username)
-print(type(username))
-print(password)
-print(type(password))
 client = MatrizAPIClient(username=username, password=password)
 client.connect()
 
